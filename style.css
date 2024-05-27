@@ -1,0 +1,82 @@
+body {
+    background-color: #E5BE9E;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    height: 600px;
+}
+
+.cell {
+    border: 4px solid #505A5B;
+    border-radius: 4px;
+    background-color: #E1B07E;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.cell:hover {
+    background-color: #ffcd9a;
+}
+
+.color {
+    height: 100px;
+    width: 70%;
+    border: #505A5B 2px solid;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cellTitle {
+    margin-top: 15px;
+    text-align: center;
+    color: #343F3E;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343F3E;
+}
+
+h4 {
+    display: inline;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343F3E;
+}
+
+#instructions {
+    width: 250px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height: 35px;
+    background-color: #94B0DA;
+    border: #505A5B 2px solid;
+    border-radius: 3px;
+    color: #343F3E;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: fixed;
+}
+
+#palleteButton {
+    margin-left: 350px;
+}
+
+button:hover {
+    background-color: #a6c0e8;
+}
